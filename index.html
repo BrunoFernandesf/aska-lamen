@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aska Lamen</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--CABEÇALHO E MENU NAV-->
+    <header class="cabecalho" id="principal__id">
+        <!--Logo da página-->
+        <div class="cabecalho__logo">
+            <div class="logo__nome">
+                <h1 id="nome__titulo">ASKA Lamen</h1>
+            </div>
+            <div class="logo__imagens">
+                <img src="img/AskaNovo.png" id="logo__imagem1" alt="escrita em japones aska lamen">
+                <img src="img/Lamen.jpg" id="logo__imagem2" alt="imagem de um desenho de lamen">
+            </div>
+        </div>
+        <!--menu de nav-->
+        <div class="cabecalho__nav">
+            <ul class="nav__lista">
+                <li><a href="index.html#principal__id">Nosso Lamen</a></li>
+                <li><a href="index.html#principal-superior__id">O Aska</a></li>
+                <li><a>Acesse o cardapio</a></li>
+            </ul>
+        </div>
+
+        <!--Redes Sociais-->
+        <div id="header__redes-sociais" class="rodape__redes-sociais">
+            <a href ="https://m.facebook.com/profile.php?id=100064201141520&_rdr" target="_blank"><img class="rodape__contato-img" src="img/facebook.png"></a>
+            <a href="https://www.instagram.com/aska_lamen/" target="_blank"><img class="rodape__contato-img" src="img/instagram.png"></a>
+            <a href="tel:+55113271-3770" target="_blank"><img class="rodape__contato-img" src="img/icone_tel.png"></a>
+        </div>
+    </header>
+
+<!--PRINCIPAL-->
+<main class="principal">
+    <div class="principal__nosso-lamen">
+        <!--Slide 01-->
+        <div class="nosso-lamen__slide" id="slidemenor1">
+            <!-- Conteúdo do Slide 01 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/Lamen_04.png" alt="imagem lamen">
+            </div>
+            <div class="nosso-lamen__texto">
+                <h1>Principais pratos</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
+            </div>
+        </div>
+        <!--Slide 02-->
+        <div class="nosso-lamen__slide" id="slidemenor2">
+            <!-- Conteúdo do Slide 02 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/Lamen_03.png" alt="imagem lamen">
+            </div>
+            <div class="nosso-lamen__texto">
+                <h1>Macarrão</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
+            </div>
+        </div>
+        <!--Slide 03-->
+        <div class="nosso-lamen__slide" id="slidemenor3">
+            <!-- Conteúdo do Slide 03 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/tigelas.png" alt="imagem lamen">
+            </div>
+            <div class="nosso-lamen__texto">
+                <h1>Tigelas</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--Carrossel bullet points-->
+    <div class="principal__nosso-lamen-bullets">
+        <span class="bullet" onclick="changeSlide(0)"></span>
+        <span class="bullet" onclick="changeSlide(1)"></span>
+        <span class="bullet" onclick="changeSlide(2)"></span>
+    </div>
+
+    <!--Botão IFOOD-->
+    <div class="principal__ifood">
+        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/lamen-aska-liberdade/aa77efe1-70b5-4380-b7aa-feae1069e940" target="_blank">
+            <img id="ifood__img" src="img/icone_ifood.jpg" alt="icone ifood">
+        </a>
+    </div>
+</main>
+
+    
+    <!--Segunda parte começa aqui-->
+    <!--O ASKA SOBRE -->
+    <!--Parte superior-->
+    <section class="principal__sobre-superior" id="principal-superior__id">
+
+        <div class="principal__sobre-superior-separacao">
+            <!--Imagens 1-->
+            <div class="principal__sobre-superior-1-img">
+                <img src="img/img_aska.png" alt="fachada">
+                <img src="img/img_aska-salao.png" alt="salão_principal">
+            </div>
+
+            <!--Texto 1-->
+            <div class="principal__sobre-superior-1-texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui ut, mollis mattis turpis. Praesent mattis justo in mauris dictum, sit amet consequat dolor ullamcorper. Praesent rutrum odio eget felis eleifend malesuada. Nunc sed massa dictum, efficitur nunc vestibulum, sagittis massa.</p>
+            </div>
+        </div>
+
+        <!--Imagem Texto Japonês Lateral Imagem 1 -->
+        <div id="principal-superior-escrita__id">
+            <img src="img/Escrita.jpg" alt="escrita_japonesa">
+        </div>        
+    </section>
+
+    <!--Parte inferior-->
+    <section class="principal__sobre-inferior">
+
+        <!--Imagem Texto Japonês Lateral Imagem 1 -->
+        <div class="principal__sobre-inferior-1">
+            <img src="img/Escrita.jpg" alt="escrita_japonesa">
+        </div>
+
+        <!--Imagem e texto Geral-->
+        <div class="principal__sobre-inferior-2">
+            
+            <!--Imagem e texto 2-->
+            <div class="principal__sobre-inferior-2-img-texto">
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+                <img src="img/img_aska-fundador.png" alt="fundador">
+            </div>
+
+            <!--Imagem e texto 3-->
+            <div id="principal__sobre-inferior-2-img-texto__id" class="principal__sobre-inferior-2-img-texto">
+                <img src="img/img_aska-funcionarios.png" alt="funcionarios">
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p> <!--POSSIVEL COLOCAR ID-->
+            </div>
+        
+            <!--Imagem e texto 4-->
+            <div class="principal__sobre-inferior-2-img-texto">
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+                <img src="img/img_aska-clientes.png" alt="salao_clientes">
+            </div>
+        </div>
+         
+    </section>
+
+
+    <!--RODAPÉ-->
+    <footer class="rodape">
+
+        <!--Rodapé nome-->
+        <div class="rodape__nome">
+            <h1>ASKA Lamen</h1>
+        </div>
+
+        <div class="rodape__dados">
+            <!--Redes Sociais-->
+            <div class="rodape__redes-sociais">
+                <a href ="https://m.facebook.com/profile.php?id=100064201141520&_rdr" target="_blank"><img class="rodape__contato-img" src="img/facebook.png"></a>
+                <a href="https://www.instagram.com/aska_lamen/" target="_blank"><img class="rodape__contato-img" src="img/instagram.png"></a>
+                <a href="tel:+55113271-3770" target="_blank"><img class="rodape__contato-img" src="img/icone_tel.png"></a>
+            </div>
+
+            <!--Endereço-->
+            <div class="rodape__dados-endereco">
+                <h3>Endereço:</h3>
+                <p>Rua Barão de Iguape, 260 - Liberdade, São Paulo - SP, 01507-000</p>
+            </div>
+
+            <!--Horário Funcionamento-->
+            <div class="rodape__dados-horario">
+                <h3>Horário:</h3>
+                <p>Almoço 11h às 14h</p>
+                <p>Jantar 18h às 21h</p>
+                <p>❌️fechado às segundas e nos últimos domingos de cada mês</p>
+            </div>
+
+            <!--Fomas de pagamento-->
+            <div class="rodape__dados-pagamento">
+                <h3>Formas de Pagamento:</h3>
+                <p>Dinheiro 💰</p>
+                <p>Pix</p>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
